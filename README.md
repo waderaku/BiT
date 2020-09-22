@@ -1,1 +1,1 @@
-# BiT
+# Big Transfer Model
