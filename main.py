@@ -95,6 +95,7 @@ if __name__ == "__main__":
                          'train'],  with_info=True, data_dir=DATA_DIR)
     ds = ds[0]
     num_examples = info.splits['train'].num_examples
+    print(num_examples)
 
     # トレーニング、テストデータに分解
     num_train = int(TRAIN_SPLIT * num_examples)
